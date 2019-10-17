@@ -1,0 +1,364 @@
+* {
+font-family: 'Work_Sans' 'Heebo', 'Inconsolata', 'Kurale', sans-serif;
+ box-sizing: border-box;
+ margin: 0;
+padding: 0;
+}
+                                                                                                                                        
+                                                                            
+li {
+  list-style: none;
+ }
+                                                                            
+ a {
+text-decoration: none;
+font-size: 22px;
+ color: #595959;
+}
+                                                                            
+header {
+ margin-left: 15%;
+ margin-right: 15%;
+ padding-top: 3%;
+ padding-bottom: 3%;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+ }
+                                                                            
+ #header-menu ul {
+display: flex;
+ flex-wrap: nowrap;
+ margin-right: 15%;
+ }
+                                                                            
+ #header-menu ul li a {
+ display: block;
+padding: 15px 20px;
+  }
+                                                                            
+ #header-menu ul li a:hover {
+ background: #e94150;
+ color: #ffffff;
+ }
+ .border {
+  border-bottom: 1px solid #e5e5e5;
+  }
+                                                                            
+   #video {
+  background: #e94150;
+  height: 40px;
+  width: 204px;
+ padding: 10px;
+  margin-top: 30px;
+ }
+                                                                            
+ .conteiner-1 {
+ display: flex;
+  flex-wrap: nowrap;
+  margin-left: 15%;
+  padding-top: 10%;
+ max-width: 100%;
+ }
+                                                                            
+  .ipad {
+max-width: 80%;
+margin-left: 10%;
+}
+                                                                            
+ .conteiner-2 {
+ display: flex;
+ position: relative;
+flex-wrap: nowrap;
+ }
+                                                                            
+  .box-1 {
+ display: flex;
+ padding: 0 30px 0 0;
+ max-width: 100%;
+}
+                                                                                                                                              
+ .box-2 {
+ display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  margin: 0 20px 0 30px;
+  text-align: justify;
+ }
+                                                                            
+ .box-2 ul {
+  position: relative;
+  display: flex;
+  margin-top: 6%;
+  margin-left: 80%;
+  }
+                                                                            
+  .box-2 ul li {
+  bottom: 1px;
+  text-decoration: none;
+  height: 40px;
+  width: 35px;
+  padding: 5px 10px;
+  background: #f1aec2;
+  background-repeat: no-repeat;
+list-style: none;
+ }
+                                                                            
+  .box-2 ul li a:hover {
+  background: #f4bfcf;
+ }
+                                                                            
+  h3 {
+  font-size: 20px;
+  }
+                                                                            
+  .box {
+   display: block;
+  }
+                                                                            
+  .conteiner-3 {
+   display: flex;
+ }
+                                                                            
+  .conteiner-4 {
+   display: flex;
+  }
+                                                                            
+  .conteiner-5 {
+  display: flex;
+ }
+                                                                            
+ .boxed {
+  display: block;
+ flex: wrap;
+  text-align: justify;
+  padding: 30px 25px 0 0;
+  }
+                                                                            
+ .conteiner-2-5 {
+  display: block;
+  margin-left: 15%;
+  max-width: 60%;
+  }
+                                                                            
+  .conteiner-6 {
+  display: flex;
+  margin-right: 15%;
+  padding-top: 2%;
+  }
+                                                                            
+  .sidebar-all {
+  position: relative;
+  display: block;
+  flex-wrap: wrap;
+  height: 865px;
+  width: 330px;
+  }
+                                                                            
+ .sidebar-1 {
+  padding: 0 0 50px 40px;
+  position: relative;
+  max-width: 100%;
+  }                                                                         
+  .sidebar-2 {
+  position: relative;
+  max-width: 100%;
+  }                                                                         
+  .img .ipad {
+  max-width: 100%;
+  }
+                                                                            
+  .sidebar-3 {
+  display: block;
+  flex-direction: column;
+  background: #393a39;
+  border-bottom: 8px solid #bb4465;
+  max-width: 320px;
+  min-height: 270px;
+  margin-top: 25px;
+   padding: 20px;
+ }
+                                                                            
+  #img-002-007 {
+ padding-left: 12%;
+ margin-bottom: 5%;
+   max-width: 100%;
+  }
+                                                                            
+  #img-002-004 {
+  margin-bottom: 10%;
+  max-width: 100%;
+  }
+                                                                            
+ .form {
+  position: relative;
+  margin: 0 auto;
+ cursor: pointer;
+  }
+                                                                            
+  form input[type="text"], [type="email"] {
+ margin-bottom: 12px;
+  padding-left: 10px;
+ font-family: Helvetica, Arial, sans-serif;
+  width: 255px;
+ height: 25px;
+ }
+                                                                            
+  form input:focus {
+ outline: #ffffff
+ }
+                                                                            
+ form input[type="submit"] {
+ background: url(Premium_Metro_Style_Blog_Template/data/002-006.png);
+ width: 180px;
+ height: 35px;
+ border: 1px solid #393a39;
+ cursor: pointer;
+ position: absolute;
+ margin: 0 40px;
+ font-size: 14px;
+ color: #ffffff;
+ margin-bottom: 20px;
+}
+                                                                            
+ footer {
+ display: flex;
+ align-items: center;
+ justify-content: flex-end;
+ background: #393a39;
+ height: 80px;
+ margin-top: 60px;
+ }
+                                                                            
+.img-footer {
+margin-right: 220px;
+margin-left: 320px;
+}
+
+.text-footer p {
+font-size: 12px;
+color: #bdbdbd;
+}
+
+@media (max-width: 1240px) {
+.box-2 ul {
+ margin-left: 0px;
+}
+}
+                                                                            
+@media (max-width: 1200px) {
+.box-1 {
+  margin-bottom: 5%;
+}
+.box-1 img {
+max-width: 60%;
+}
+.box-2 ul {
+margin-top: 5px;
+}
+.img-center {
+height: 63px;
+max-width: 70%;
+}
+.box-2 {
+margin: 0 5px 0 0;
+}
+.conteiner-2, .conteiner-3, .conteiner-4, .conteiner-5 {
+display: block;
+}
+.img-footer {
+margin-right: 120px;
+margin-left: 260px;
+}
+.ipad, .conteiner-1 .img {
+max-width: 70%;
+}
+.conteiner-1 {
+flex-wrap: nowrap;
+}
+                                                                            
+@media (max-width: 960px) {
+  .logo {
+    max-width: 80%;
+  }
+ #video {
+height: 35px;
+ width: 187px;
+padding: 7px;
+}
+.ipad {
+max-width: 90%;
+margin: 0;
+}
+ .conteiner-6 {
+display: flex;
+flex-wrap: wrap;
+margin: 0 20% 2% 20%;
+padding: 0;
+}
+.conteiner-2-5 {
+ padding: 0;
+ margin: 0;
+max-width: 100%;
+}
+ .conteiner-1 {
+ padding: 15px;
+ }
+.box-1 img {
+    max-width: 40%;
+}
+
+.sidebar-all {
+  display: flex;
+  width: 540px;
+  padding-top: 5%;
+}
+ .sidebar-1, .sidebar-2, .sidebar-3 {
+     margin: auto;
+    
+ }
+ .sidebar-1 img, .sidebar-2 img, .sidebar-3 img {
+   max-width: 100%;
+}
+ form input[type="text"], [type="email"] {
+width: 100%;
+}
+ form input[type="submit"] {
+max-width: 81%;
+margin: auto;
+ }
+ .img-footer {
+    flex-wrap: wrap;
+     margin: 0 5% 0 10%;
+    }
+}
+                                                                            
+                                                                           
+@media (max-width: 610px) {
+
+ .logo {
+   max-width: 60%;
+ } 
+.box-1 img {
+ max-width: 40%;
+
+}
+ #header-menu ul {
+flex-wrap: wrap;
+ justify-content: center;
+}
+}                                                                           
+.ipad {
+flex-wrap: nowrap;
+}
+
+@media (max-width: 370px) {
+.text-footer, .img-footer {
+  padding: 5%;
+}
+}
+.img-footer img {
+  width: 25%;
+}
+
+
